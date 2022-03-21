@@ -1,0 +1,28 @@
+body
+{
+       background-image: url(Background\ 2.png); 
+       background-repeat:repeat;
+       background-position: center;
+}
+.FONTIWD
+        {
+            color: rgb(34, 36, 39);
+        }
+.IWD
+        {
+            font-family: Gameplay;
+            font-size: 100px;
+            
+        }
+.IWDQ
+        {
+            font-family: Gameplay;
+            font-size: 60px;
+            position: fixed;
+            
+        }
+#Quiz:hover
+        {
+            font-size: 62px;
+
+        }

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Women's Day</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .site-footer
+        {
+        background-color:#26272b;
+        padding:45px 0 20px;
+        font-size:15px;
+        line-height:24px;
+        color:#737373;
+        }
+        .site-footer hr
+        {
+        border-top-color:#bbb;
+        opacity:0.5
+        }
+        .site-footer hr.small
+        {
+        margin:20px 0
+        }
+        .site-footer h6
+        {
+        color:#fff;
+        font-size:16px;
+        text-transform:uppercase;
+        margin-top:5px;
+        letter-spacing:2px
+        }
+        .site-footer a
+        {
+        color:#737373;
+        }
+        .site-footer a:hover
+        {
+        color:#3366cc;
+        text-decoration:none;
+        }
+        .footer-links
+        {
+        padding-left:0;
+        list-style:none
+        }
+        .footer-links li
+        {
+        display:block
+        }
+        .footer-links a
+        {
+        color:#737373
+        }
+        .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+        {
+        color:#3366cc;
+        text-decoration:none;
+        }
+        .footer-links.inline li
+        {
+        display:inline-block
+        }
+        .contact
+        {
+            font-family: Gameplay;
+            font-size: 40px;
+            color:rgb(218, 222, 228) ;
+        }
+
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.details{
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.details h2{
+  color: #565656;
+  font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.social-media-list a{
+  display: inline-block;
+  color: #565656;
+  text-decoration: none;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.social-media-list a:not(:last-child){
+  margin-right: 10px;
+}
+
+.card:hover img{
+  transform: scale(1.2);
+}
+
+.card:hover .details{
+  transform: translateY(0);
+}
+
+.card:hover .social-media-list a{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.social-media-list a:first-child{
+  transition-delay: 0.1s;
+}
+
+.social-media-list a:nth-child(2){
+  transition-delay: 0.2s;
+}
+
+.social-media-list a:last-child{
+  transition-delay: 0.3s;
+}
+    </style>
+</head>
+<body>
+    <!--
+        Navigation Bar
+    -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        Michael's women's day blogging website
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="2nd_page.html">Info</a>
+                        </li>
+                        <li>
+                            <a href="1st_page.html">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Influential Women</a>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+        </div>   
+    </nav>
+<!--
+    contact
+-->
+<br><br>
+    <div class="contact" style=" background-color: rgba(59, 55, 51, 0.562);">
+        <br>
+        <div class="container" style="background-color: rgba(49, 45, 38, 0.767);">
+            <center>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Contact me: </p>
+                    </div>
+                    <div class="col-md-12">
+                        <br>
+                        <div class="card">
+                            <img src="Michael1.png" alt="smiling men" />
+                            <div class="details">
+                            <h2>Michael Santos</h2>
+                            <div class="social-media-list">
+                                <a href="https://www.facebook.com/aperson.leahcim.spellitbackwards/">
+                                <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/leachim_backwards/">
+                                <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <br>
+            </center>
+        </div>
+        <br>
+    </div>
+<!--
+Footer
+-->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>
+                    About
+                </h6>
+                <p class="text-justify">
+                    This blog is about the celebration of international women's day. It empowers
+                    the women from around the world.
+                </p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <h6>
+                    Categories
+                </h6>
+                <ul class="footer-links">
+                    <li>
+                        <a href="2nd_page.html">
+                            Information
+                        </a>
+                    </li>
+                    <li>
+                        <a href="1st_page.html">
+                            Quiz
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">
+                            Influential Women
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <h6>Quick links</h6>
+                <ul class="footer-links">
+                    <li>
+                        <a href="contact.html">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>  
+        </div>  
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">
+                    Copyrights &copy; 2022 all rights by Michael Santos
+                </p>    
+            </div>
+        </div>
+    </div>
+</footer>   
+</body>
+</html>

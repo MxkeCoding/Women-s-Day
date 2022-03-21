@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Women's Day</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+
+/* 
+        Footer
+*/
+        .site-footer
+        {
+        background-color:#26272b;
+        padding:45px 0 20px;
+        font-size:15px;
+        line-height:24px;
+        color:#737373;
+        }
+        .site-footer hr
+        {
+        border-top-color:#bbb;
+        opacity:0.5
+        }
+        .site-footer hr.small
+        {
+        margin:20px 0
+        }
+        .site-footer h6
+        {
+        color:#fff;
+        font-size:16px;
+        text-transform:uppercase;
+        margin-top:5px;
+        letter-spacing:2px
+        }
+        .site-footer a
+        {
+        color:#737373;
+        }
+        .site-footer a:hover
+        {
+        color:#3366cc;
+        text-decoration:none;
+        }
+        .footer-links
+        {
+        padding-left:0;
+        list-style:none
+        }
+        .footer-links li
+        {
+        display:block
+        }
+        .footer-links a
+        {
+        color:#737373
+        }
+        .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+        {
+        color:#3366cc;
+        text-decoration:none;
+        }
+        .footer-links.inline li
+        {
+        display:inline-block
+        }
+        .Gallerytitle
+        {
+            font-family: Gameplay;
+            font-size: 40px;
+            color:rgb(218, 222, 228) ;
+        }
+
+        * 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+/* 
+        Accordion
+*/
+        .img-accordion 
+        {
+            width: 90%;
+            max-width: 2440px;
+            height: 57vh;
+            display: flex;
+        }
+
+        .accordion-item 
+        {
+            height: 100%;
+            flex: 1;
+            border: 2px solid #000;
+            transform:scale(5deg);
+            cursor: pointer;
+            position: relative;
+            transition: flex 0.3s;
+        }
+
+        .accordion-item img 
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .accordion-item p 
+        {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-family: "Gameplay";
+            white-space: nowrap;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 10px;
+            transform: rotate(-90deg);
+            transform-origin: top left;
+            transition: all 0.4s;
+        }
+
+        .accordion-item:hover p 
+        {
+            transform: rotate(0);
+            background-color: #000;
+        }
+
+        .accordion-item:hover 
+        {
+            flex: 4;
+        }
+
+        a
+        {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Navigation Bar
+    -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        Michael's women's day blogging website
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="2nd_page.html">Info</a>
+                        </li>
+                        <li>
+                            <a href="1st_page.html">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Influential Women</a>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+        </div>   
+    </nav>
+    <!--
+        Gallery
+    -->
+    <div class="Gallery" style=" background-color: rgba(59, 55, 51, 0.562);">
+        <br><br><br><br><br><br>        
+        <div class="container" style="background-color: rgba(49, 45, 38, 0.767);">
+            <br>
+            <center>
+                <div class="row Gallerytitle" id="ACC">
+                    <div class="col-md-12">
+                        <p>Influential Women</p>
+                    </div>
+                </div>
+                <div class="img-accordion">
+                    <div class="accordion-item">
+                            <img src="AnneFrank.png" alt="" />
+                        <p>
+                            <a href="#AF" style="text-decoration: none #fff;">Anne Frank</a>
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="malala.png" alt="" />
+                        <p>
+                            <a href="#MALA" style="text-decoration: none #fff;">malala yousafzai </a>
+                        </p>
+                    </div>
+                    <div class=" accordion-item">
+                            <img src="Greta.png" alt="" />
+                        <p>
+                            <a href="#GRETA" style="text-decoration: none #fff;">greta thunberg</a>
+                        </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="motherteresa.png" alt="" />
+                    <p>
+                        <a href="#MT" style="text-decoration: none #fff;">Mother Teresa</a>
+                    </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="eleanor.png" alt="" />
+                    <p>
+                        <a href="#ER" style="text-decoration: none #fff;">Eleanor Roosevelt</a>
+                    </p>
+                    </div>
+                </div>
+                <div id="ACC2" class="img-accordion">
+                    <div class="accordion-item">
+                            <img src="Queen.png" alt="" />
+                    <p> 
+                        <a href="#QUEEN" style="text-decoration: none #fff;">Queen Elizabeth II</a>
+                    </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="RosaParks.png" alt="" />
+                    <p>
+                        <a href="#RP" style="text-decoration: none #fff;">Rosa Parks</a>
+                    </p>
+                        </div>
+                    <div class=" accordion-item">
+                            <img src="Ella.png" alt="" />
+                    <p>
+                        <a href="#EF" style="text-decoration: none #fff;">Ella Fitzgerald</a>
+                    </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="JKR.png" alt="" />
+                    <p>
+                        <a href="#JK" style="text-decoration: none #fff;">J.K. Rowling</a>
+                    </p>
+                    </div>
+                    <div class="accordion-item">
+                            <img src="Opera.png" alt="" />
+                    <p>
+                        <a href="#OW" style="text-decoration: none #fff;">oprah winfrey</a>
+                    </p>
+                    </div>
+                </div>
+            </center>
+            <hr id="AF">
+            <br><br>
+            <div class="row">
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC" style="text-decoration: none #fff;">Anne Frank</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Anne Frank was a German girl and Jewish victim of the Holocaust who
+                        is famous for keeping a diary of her experiences. Anne and her family
+                        went into hiding for two years to avoid Nazi persecution. Her documentation 
+                        of this time is now published in The Diary of a Young Girl.
+                    </div>
+                </div>
+                <br id="MALA">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC" style="text-decoration: none #fff;">Malala Yousafzai</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Malala Yousafzai, often referred to mononymously as Malala, and by her
+                        married name Malala Yousafzai Malik is a Pakistani activist for female 
+                        education and a Nobel Peace Prize laureate. She is also the world's 
+                        youngest Nobel Prize laureate, and second Pakistani to ever receive a 
+                        Nobel Prize.
+                    </div>
+                </div>
+                <br id="GRETA">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC" style="text-decoration: none #fff;">greta thunberg</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Greta Tintin Eleonora Ernman Thunberg is a Swedish environmental activist 
+                        who is known for challenging world leaders to take immediate action for 
+                        climate change mitigation. Thunberg's activism began when she persuaded 
+                        her parents to adopt lifestyle choices that reduced their own carbon 
+                        footprint.
+                    </div>
+                </div>
+                <br id="MT">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC" style="text-decoration: none #fff;">Mother Teresa</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Mother Mary Teresa Bojaxhiu, honoured in the Catholic Church as Saint 
+                        Teresa of Calcutta, was an Albanian-Indian Roman Catholic nun and missionary. 
+                        She was born in Skopje, then part of the Kosovo Vilayet of the Ottoman Empire.
+                    </div>
+                </div>
+                <br id="ER">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC" style="text-decoration: none #fff;">Eleanor Roosevelt</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Anna Eleanor Roosevelt was an American political figure, diplomat, and activist.
+                        She served as the first lady of the United States from 1933 to 1945, during her 
+                        husband President Franklin D. Roosevelt's four terms in office, making her the 
+                        longest-serving first lady of the United States.
+                    </div>
+                </div>
+                <br id="QUEEN">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC2" style="text-decoration: none #fff;">Queen Elizabeth II</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Elizabeth II is Queen of the United Kingdom and 14 other Commonwealth realms. 
+                        Elizabeth was born in Mayfair, London, as the first child of the Duke and Duchess 
+                        of York. Her father acceded to the throne in 1936 upon the abdication of his brother, 
+                        King Edward VIII, making Elizabeth the heir presumptive.
+                    </div>
+                </div>
+                <br id="RP">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC2" style="text-decoration: none #fff;">Rosa parks</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Rosa Louise McCauley Parks was an American activist in the civil rights movement best 
+                        known for her pivotal role in the Montgomery bus boycott. The United States Congress 
+                        has honored her as "the first lady of civil rights" and "the mother of the freedom movement".
+                    </div>
+                </div>
+                <br id="EF">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC2" style="text-decoration: none #fff;">ELLA FITZGERALD</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Ella Jane Fitzgerald was an American jazz singer, sometimes referred to as the "First 
+                        Lady of Song", "Queen of Jazz", and "Lady Ella". She was noted for her purity of tone, 
+                        impeccable diction, phrasing, timing, intonation, and a "horn-like" improvisational 
+                        ability, particularly in her scat singing.
+                    </div>
+                </div>
+                <br id="JK">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC2" style="text-decoration: none #fff;">J.K. Rowling</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Joanne Rowling, CH OBE HonFRSE FRCPE FRSL, is a British author and 
+                        philanthropist known by her pen name J. K. Rowling. She wrote a seven-volume 
+                        children's fantasy series, Harry Potter, published from 1997 to 2007.
+                    </div>
+                </div>
+                <br id="OW">
+                <br><br>
+                <div class="col-md-12" style="font-family: Gameplay; font-size: xx-large; color: rgb(218, 222, 228);">
+                    <a href="#ACC2" style="text-decoration: none #fff;">Opera winfrey</a>
+                </div>    
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-11" style="font-family: Gameplay; font-size: x-large; color: rgb(218, 222, 228);">
+                        Oprah Gail Winfrey is an American talk show host, television producer, 
+                        actress, author, and philanthropist.
+                    </div>
+                </div>
+            </div>
+            
+            <br>
+            <br>
+        </div>    
+    </div>  
+<!--
+Footer
+-->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>
+                            About
+                        </h6>
+                        <p class="text-justify">
+                            This blog is about the celebration of international women's day. It empowers
+                            the women from around the world.
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <h6>
+                            Categories
+                        </h6>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="2nd_page.html">
+                                    Information
+                                </a>
+                            </li>
+                            <li>
+                                <a href="1st_page.html">
+                                    Quiz
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    Influential Women
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick links</h6>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="contact.html">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>  
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">
+                            Copyrights &copy; 2022 all rights by Michael Santos
+                        </p>    
+                    </div>
+                </div>
+            </div>
+        </footer>   
+</body>
+</html>
